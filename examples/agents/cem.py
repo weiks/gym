@@ -88,5 +88,5 @@ if __name__ == '__main__':
 
     env.monitor.close()
 
-    logger.info("Successfully ran RandomAgent. Now trying to upload results to the scoreboard. If it breaks, you can always just try re-uploading the same results.")
+    logger.info("Successfully ran cemAgent. Now trying to upload results to the scoreboard. If it breaks, you can always just try re-uploading the same results.")
     gym.upload(outdir, algorithm_id='cem')
